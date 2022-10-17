@@ -1,3 +1,3 @@
-## www.hardikmore.com
-# morehardik.github.io
+# www.hardikmore.com
+## morehardik.github.io
 Personal Website
