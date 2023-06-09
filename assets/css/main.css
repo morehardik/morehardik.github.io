@@ -93,7 +93,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Circular","Poppins","Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -425,6 +425,14 @@ input, select, textarea {
 			margin-left: 100%;
 		}
 
+		.row > .col-15 {
+			width: 20%;
+		}
+
+		.row > .off-15 {
+			margin-left: 20%;
+		}
+
 		.row.gtr-0 {
 			margin-top: 0;
 			margin-left: 0em;
@@ -666,6 +674,14 @@ input, select, textarea {
 
 				.row > .off-12-xlarge {
 					margin-left: 100%;
+				}
+
+				.row > .col-15-xlarge {
+					width: 20%;
+				}
+
+				.row > .off-15-xlarge {
+					margin-left: 20%;
 				}
 
 				.row.gtr-0 {
@@ -911,6 +927,14 @@ input, select, textarea {
 
 				.row > .off-12-large {
 					margin-left: 100%;
+				}
+
+				.row > .col-15-large {
+					width: 20%;
+				}
+
+				.row > .off-15-large {
+					margin-left: 20%;
 				}
 
 				.row.gtr-0 {
@@ -1401,6 +1425,14 @@ input, select, textarea {
 
 				.row > .off-12-small {
 					margin-left: 100%;
+				}
+
+				.row > .col-15-small {
+					width: 20%;
+				}
+
+				.row > .off-15-small {
+					margin-left: 20%;
 				}
 
 				.row.gtr-0 {
@@ -2123,6 +2155,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
+			.image.fit:before {
+				display: none
+			}
+
 			.image.fit img {
 				width: 100%;
 			}
@@ -2671,7 +2707,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg.webp");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2682,7 +2718,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 25%;
 	}
 
 		#header > * {
@@ -2705,7 +2741,15 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h3{
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.25em;
+			line-height: 1.75em;
+			margin: 0;
+		}
+		
+		
+		#header h2, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
 
@@ -2718,7 +2762,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 7.25em;
 		}
 
 /* Footer */
@@ -2760,10 +2804,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
+		margin-left: 30%;
+		max-width: 60em;
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
@@ -3156,7 +3200,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bg.webp");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
